@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    outline: none;
+    transition: 0.2s linear;
+}
+.btn{
+    margin-top: 2rem;
+    width: 150px;
+    padding: 12px;
+    color: #fff;
+    background: rgb(233, 66, 37);
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: transparent;
+    transition: 0.5s;
+}
+.head{
+    position: fixed;
+    top: 0;
+    background: black;
+    box-shadow: 0 2px 6px 4px rgb(36, 36, 36);
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    position: 1.5rem 8%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: space-between;
+}
+.head .logo{
+    font-size: 25px;
+    font-weight: bolder;
+    color: #fff;
+    padding-right: 10px;
+    margin-right: 20rem;
+}
+.head .logo i{
+    color: tomato;
+    padding: 1rem;
+}
+.head .navbar a{
+    font-size: 1.1rem;
+    margin: 0 1rem;
+    color: #fff;
+}
+.head .navbar a:hover{
+    color: tomato;
+}
+.head .btn{
+    
+    color: tomato;
+    border: 1px solid tomato; 
+    font-size: 12px;
+    padding: 8px;
+}
+/* section */
+section{
+    padding: 200px  50px ;
+    height: 680px;
+    width: 100%;
+    background: linear-gradient(90deg,black 0%, tomato 35%, black 100%);
+}
+.container .text{
+    line-height: 1.5rem;
+}
+.container .text .heading-one h1{
+    color: black;
+    text-align: start;
+    line-height: 2.5rem;
+    font-size: xx-large;
+}
+.container .text .heading-one p{
+    color: #fff;
+    margin-top: 2rem;
+    padding-left: 55px;
+}
+button{
+    margin: 80px 50px;
+    width: 150px;
+    padding: 10px ;
+    background: none;
+    color: #fff;
+    font-size:larger ;
+    font-weight: bolder;
+    border: 5px solid tomato;
+    
+}
+button:hover{
+    background-color: tomato;
+    transition: 2s;
+    color: #fff;
+}
+/* program */
+.program{
+    height: 600px;
+    background-color: #fff;
+}
+h1{
+    text-align: center;
+    padding: 50px;
+}
+h1 span{
+    color: tomato;
+}
+.program .ourProgram{
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.program .ourProgram .card{
+    width: 350px;
+    height: 400px;
+}
+.program .ourProgram .card img{
+    width: 350px;
+    height: 400px;
+}
+.program .ourProgram .card img:hover{
+    transform: scale(0.9);
+}
+.program .ourProgram .card h3{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 8px;
+}
+/* plan */
+.our-plan{
+    display: flex;
+    justify-content: center;
+}
+.our-plan .plan-card{
+    width: 300px;
+    padding: 4px;
+    background: linear-gradient(90deg,black 0%, tomato 35%, black 100%);
+    color: #fff;
+    text-align: center;
+    margin-inline: 22px;
+}
+.plan-card i{
+    font-size: 22px;
+    margin-top: 22px;
+    color: black;
+}
+.plan-card h3{
+    margin-top: 12px;
+}.plan-card h1{
+    margin-top: 10px;
+    color: black;
+}
+.plan-card p{
+    margin-top: 10px;
+    color: #fff;
+}
+.plan-card button{
+    margin-bottom: 10px;
+}
+.our-plan .plan-card:hover{
+    transition: 0.5s ease;
+    background-color: #362c2c;
+    cursor: pointer;    
+    transform: scale(0.9);
+    transition: 1s ease;
+}
+/* contact */
+.contact-inputs{
+    margin: 20px auto 100px;
+    height: 350px;
+    width: 800px;
+    background: linear-gradient(90deg,black 0%, tomato 35%, black 100%);
+}
+#contact-us input{
+    width: 350px;
+    padding: 8px;
+    height: 33px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: large;
+    margin: 55px 28% 0;
+
+}
+#contact-us button{
+    margin: 50px 40% 10px;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 33px;
+    padding: 22px;
+    background: linear-gradient(to bottom,black , tomato);
+    box-shadow: 0 2px 6px 4px rgb(36, 36, 36);
+}
+#footer .footer-text{
+margin-inline: 72px;
+margin-top: 33px;
+}
+#footer .footer-text h2{
+    color: tomato;
+}
+#footer .footer-text p{
+    margin-top: 12px;
+    color: #fff;
+}
+#footer .footer-text p:hover{
+    color: #362c2c;
+    text-decoration: underline;
+    transition: 0.7s ease;
+}
